@@ -23,7 +23,7 @@ public class Main {
 
        instructorManager.addCourse(instructor, new Course(1, "Matlab"));
        instructorManager.addMultipleCourse(instructor,courses);
-        instructorManager.removeCourse(instructor, python);
+       instructorManager.removeCourse(instructor, python);
 
 
 
