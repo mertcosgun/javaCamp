@@ -13,9 +13,13 @@ public class Main {
         };
 
        User enginDemirog = new User(1, "Engin", "Demirog", "Istanbul");
-
+       User userMert = new User(3,"Mert", "C", "Izmir");
        Student mert = new Student(2, "Mert", "C", "Izmir", "3535-3535-3535-3535");
+
        StudentManager studentManager = new StudentManager();
+
+       studentManager.addUser(userMert);
+
        studentManager.watchCourse(mert, cSharp);
 
        Instructor instructor = new Instructor(1, "Engin", "Demiroğ", "Istanbul", "TR330006100519786457841326");
